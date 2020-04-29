@@ -102,7 +102,7 @@ def alignment(x, y):
     solution = array_sequence[m][n]
     return solution
 
-def main():
+if __name__ == "__main__":
     fileName = sys.argv[1]
     dictionary = dict()
     f = open(fileName, 'r')
@@ -113,6 +113,3 @@ def main():
     print(score)
     print(result_1)
     print(result_2)
-
-# Call to Main
-main()
